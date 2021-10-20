@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - "echo Start: $(date)"
+      - "sleep 10"
+      - "echo End: $(date)"
+      - "exit 0"
